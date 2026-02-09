@@ -4,18 +4,19 @@ __pycache__/
 *$py.class
 
 # C extensions
-
-# YOLO weights
-*.pt
-yolo-weights/
-
-# Videos & outputs
-/input_videos/
-/output_videos/
+*.so
+# Model files
 /models/
+
+# Input videos
+/input_videos/
+
+# Output videos
+/output_videos/
+
+# YOLO / training runs
 /runs/
 
-*.so
 
 # Distribution / packaging
 .Python
